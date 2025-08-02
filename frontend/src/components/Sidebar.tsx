@@ -27,6 +27,7 @@ export default function Sidebar({
   const navigation: NavItem[] = [
     { name: "Dashboard", href: "/dashboard", icon: <HomeIcon className="h-6 w-6" /> },
     { name: "Cart", href: "/dashboard/carts", icon: <ShoppingCartIcon className="h-6 w-6" /> },
+
     { name: "Profile", href: "/dashboard/Profile", icon: <UserIcon className="h-6 w-6" /> },
     // Added a dedicated icon for the "Back To Home's" link
     { name: "Back To Home", href: "/", icon: <ArrowLeftCircleIcon className="h-6 w-6" /> },
