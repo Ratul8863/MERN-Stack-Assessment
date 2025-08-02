@@ -26,9 +26,9 @@ export default function Sidebar({
   // Corrected navigation array with consistent routes and icons
   const navigation: NavItem[] = [
     { name: "Dashboard", href: "/dashboard", icon: <HomeIcon className="h-6 w-6" /> },
-    { name: "Cart", href: "/dashboard/cart", icon: <ShoppingCartIcon className="h-6 w-6" /> },
-    { name: "Profile", href: "/dashboard/profile", icon: <UserIcon className="h-6 w-6" /> },
-    // Added a dedicated icon for the "Back To Home" link
+    { name: "Cart", href: "/dashboard/carts", icon: <ShoppingCartIcon className="h-6 w-6" /> },
+    { name: "Profile", href: "/dashboard/Profile", icon: <UserIcon className="h-6 w-6" /> },
+    // Added a dedicated icon for the "Back To Home's" link
     { name: "Back To Home", href: "/", icon: <ArrowLeftCircleIcon className="h-6 w-6" /> },
   ];
 
