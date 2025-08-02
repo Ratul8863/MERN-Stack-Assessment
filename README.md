@@ -86,7 +86,6 @@ digitalfix-assessment/
 Notes
 ------
 - Clean code with comments and modular structure
-- All required features completed and tested
 - Tailwind used for responsive UI
 - Token-based route protection implemented
 
